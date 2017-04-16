@@ -13,10 +13,11 @@ h1{
 	font-weight:normal;
 }
 .maincontain{
-
+	border:2px solid red;
 }
 img{
 	height:450px;
+	max-width:100%;
 
 }
 
