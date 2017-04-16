@@ -1,6 +1,7 @@
 @CHARSET "ISO-8859-1";
 body{
 	background-color: white;
+	text-size-adjust: auto;
 }
 div{
 	text-align: center;
@@ -11,8 +12,16 @@ h1{
 	font-family:Arial;
 	font-weight:normal;
 }
+.maincontain{
+	position:absolute;
+	height:75%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
 img{
-	width:50%;
+	height:100%;	
 }
 
 .links{
