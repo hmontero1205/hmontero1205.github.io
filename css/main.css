@@ -9,6 +9,7 @@ div{
 }
 h1{
 	text-align:center;
+	text-size-adjust: auto;
 	font-family:Arial;
 	font-weight:normal;
 	font-size:35pt;
@@ -44,8 +45,7 @@ h1{
 }
 
 .icon{
-	height:50px;
-	width:50px;
+	width:5%;
 	margin-left:25px;
 	margin-right:25px;
 }
