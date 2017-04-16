@@ -11,10 +11,9 @@ h1{
 	text-align:center;
 	font-family:Arial;
 	font-weight:normal;
+	font-size:35pt;
 }
 .maincontain{
-}
-img{
 	position:absolute;
 	height:450px;
 	max-width:80%;
@@ -22,17 +21,32 @@ img{
 	left:0;
 	right:0;
 	margin:auto;
+}
+.meme{
+	position:absolute;
+	height:100%;
+	left:0;
+	right:0;
+	margin:auto;
+	display:inline-block;
 
 }
 
-.links{
-	width:50%;	
-	margin:auto;
+.links{	
+	position:absolute;
 	font-family:Arial;
 	font-size:15pt;
+	left:0;
+	right:0;
+	margin:auto;
+	display:inline-block;
+	bottom:-75px;
 }
 
-a{
-	
+.icon{
+	height:50px;
+	width:50px;
+	margin-left:25px;
+	margin-right:25px;
 }
 	
