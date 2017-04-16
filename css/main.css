@@ -40,9 +40,10 @@ h1{
 	font-size:15pt;
 	left:0;
 	right:0;
+	bottom:-100px;
 	margin:auto;
 	display:inline-block;
-	bottom:-95px;
+
 }
 
 .icon{
