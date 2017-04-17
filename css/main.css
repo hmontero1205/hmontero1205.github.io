@@ -23,27 +23,28 @@ h1{
 	right:0;
 	margin:auto;
 }
-.meme{
+.memec{
 	position:absolute;
-	height:100%;
+	max-width:700px;
 	left:0;
 	right:0;
 	margin:auto;
-	display:inline-block;
-	max-width:80%;
 
 }
+.meme{
+	width:75%;	
+}
+.memec{
+}
+
 
 .links{	
-	position:absolute;
 	font-family:Arial;
 	font-size:15pt;
 	left:0;
 	right:0;
-	bottom:-100px;
 	margin:auto;
-	display:inline-block;
-
+	margin-top:40px;
 }
 
 .icon{
@@ -52,4 +53,4 @@ h1{
 	margin-right:25px;
 	min-width:50px;
 }
-	
+
