@@ -1,0 +1,692 @@
+
+    <style>
+            table {
+                table-layout: fixed;
+                width: 100%;
+            }
+            img {
+                width: 60px;
+                vertical-align: text-bottom;
+            }
+            .seat {
+                font-weight: bold;
+                font-size: 14pt;
+                vertical-align: top;
+            }
+            .name {
+                font-size: 9pt;
+            }
+            td {
+                text-align: center;
+                vertical-align: baseline;
+                width: 70px;
+            }
+            .unselected {
+                background-color: white;
+            }
+            .selected {
+                background-color: orange;
+            }
+    </style>
+
+    <script>
+        function selectStudent(cell) {
+            if (cell.className === "unselected") {
+                cell.className = "selected";
+            } else {
+                cell.className = "unselected";
+            }
+        }
+    </script>
+    <body><table border=1>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N4</span><br> aa3980<br> <span class="name">Akole, Ajit</span><br> <img src="3157-2019-9-midterm1-davis_files/aa3980.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P102</span><br> yy3036<br> <span class="name">Yang, Yuanxin</span><br> <img src="3157-2019-9-midterm1-davis_files/yy3036.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P103</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P104</span><br> rhm2142<br> <span class="name">Matar, Rami</span><br> <img src="3157-2019-9-midterm1-davis_files/rhm2142.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P105</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P106</span><br> nhh2112<br> <span class="name">Hong, Nicole</span><br> <img src="3157-2019-9-midterm1-davis_files/nhh2112.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P107</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P108</span><br> yc3756<br> <span class="name">Chen, Caroline</span><br> <img src="3157-2019-9-midterm1-davis_files/yc3756.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P109</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P110</span><br> mms2308<br> <span class="name">Singh, Mohit</span><br> <img src="3157-2019-9-midterm1-davis_files/mms2308.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P111</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N1</span><br> wz2464<br> <span class="name">Zhang, Wangshu</span><br> <img src="3157-2019-9-midterm1-davis_files/wz2464.jpg"></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M2</span><br> yq2285<br> <span class="name">Qin, Yingsi</span><br> <img src="3157-2019-9-midterm1-davis_files/yq2285.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N102</span><br> em3353<br> <span class="name">Mengesha, Ethiopia</span><br> <img src="3157-2019-9-midterm1-davis_files/em3353.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N103</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N104</span><br> arg2231<br> <span class="name">Gewurz, Ariana</span><br> <img src="3157-2019-9-midterm1-davis_files/arg2231.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N105</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N106</span><br> etm2131<br> <span class="name">Mesterhazy, Evan</span><br> <img src="3157-2019-9-midterm1-davis_files/etm2131.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N107</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N108</span><br> yc3578<br> <span class="name">Chen, Yibing</span><br> <img src="3157-2019-9-midterm1-davis_files/yc3578.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N109</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N110</span><br> dah2184<br> <span class="name">Howell, Devon</span><br> <img src="3157-2019-9-midterm1-davis_files/dah2184.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M1</span><br> bg2603<br> <span class="name">Geiger, Bryanna</span><br> <img src="3157-2019-9-midterm1-davis_files/bg2603.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M3</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M5</span><br> ahp2149<br> <span class="name">Posner, Drew</span><br> <img src="3157-2019-9-midterm1-davis_files/ahp2149.jpg"></td>
+</tr>
+
+<tr><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M101</span><br> kj2473<br> <span class="name">Jog, Ketan</span><br> <img src="3157-2019-9-midterm1-davis_files/kj2473.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M103</span><br> asp2204<br> <span class="name">Potnis, Anish</span><br> <img src="3157-2019-9-midterm1-davis_files/asp2204.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M105</span><br> ryc2113<br> <span class="name">Chen, Ryan</span><br> <img src="3157-2019-9-midterm1-davis_files/ryc2113.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M107</span><br> esl2150<br> <span class="name">Lee, Elizabeth</span><br> <img src="3157-2019-9-midterm1-davis_files/esl2150.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M109</span><br> mt3263<br> <span class="name">Tuchman, Miriam</span><br> <img src="3157-2019-9-midterm1-davis_files/mt3263.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M110</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M111</span><br> yw3472<br> <span class="name">Wang, Yuanming</span><br> <img src="3157-2019-9-midterm1-davis_files/yw3472.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M112</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M113</span><br> tkt2120<br> <span class="name">Tran, Thomas</span><br> <img src="3157-2019-9-midterm1-davis_files/tkt2120.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M114</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L6</span><br> st3104<br> <span class="name">Ting, Stefanie</span><br> <img src="3157-2019-9-midterm1-davis_files/st3104.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L101</span><br> eqk2101<br> <span class="name">Koether, Quin</span><br> <img src="3157-2019-9-midterm1-davis_files/eqk2101.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L103</span><br> ste2108<br> <span class="name">Eaton, Seth</span><br> <img src="3157-2019-9-midterm1-davis_files/ste2108.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L105</span><br> rrf2123<br> <span class="name">Factor, Rina</span><br> <img src="3157-2019-9-midterm1-davis_files/rrf2123.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L107</span><br> scp2154<br> <span class="name">Phan, Seyla</span><br> <img src="3157-2019-9-midterm1-davis_files/scp2154.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L109</span><br> yy2913<br> <span class="name">Yao, Yichen</span><br> <img src="3157-2019-9-midterm1-davis_files/yy2913.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L110</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L111</span><br> at3250<br> <span class="name">Tokoro, Amon</span><br> <img src="3157-2019-9-midterm1-davis_files/at3250.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L112</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L113</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L1</span><br> ac4409<br> <span class="name">Carpentieri, Adam</span><br> <img src="3157-2019-9-midterm1-davis_files/ac4409.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L3</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L5</span><br> smr2219<br> <span class="name">Roman, Sidney</span><br> <img src="3157-2019-9-midterm1-davis_files/smr2219.jpg"></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K6</span><br> mub2102<br> <span class="name">Bakker, Morgan</span><br> <img src="3157-2019-9-midterm1-davis_files/mub2102.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K101</span><br> dmw2181<br> <span class="name">Winograd, David</span><br> <img src="3157-2019-9-midterm1-davis_files/dmw2181.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K103</span><br> tjs2174<br> <span class="name">Stinson, Ty</span><br> <img src="3157-2019-9-midterm1-davis_files/tjs2174.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K105</span><br> bnh2128<br> <span class="name">Hwa, Bailey</span><br> <img src="3157-2019-9-midterm1-davis_files/bnh2128.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K107</span><br> mo2804<br> <span class="name">Ozdemir, Mark</span><br> <img src="3157-2019-9-midterm1-davis_files/mo2804.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K109</span><br> yw3241<br> <span class="name">Wang, Yuanyuting</span><br> <img src="3157-2019-9-midterm1-davis_files/yw3241.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K110</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K111</span><br> zl2753<br> <span class="name">Liu, Zeyi</span><br> <img src="3157-2019-9-midterm1-davis_files/zl2753.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K112</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K1</span><br> ipc2107<br> <span class="name">Chandratreya, Ishaan</span><br> <img src="3157-2019-9-midterm1-davis_files/ipc2107.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K3</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K5</span><br> asj2152<br> <span class="name">Jindal, Arman</span><br> <img src="3157-2019-9-midterm1-davis_files/asj2152.jpg"></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J6</span><br> hw2705<br> <span class="name">Wilbert, Hance</span><br> <img src="3157-2019-9-midterm1-davis_files/hw2705.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J2</span><br> nr2604<br> <span class="name">Ramachandran, Neeraj</span><br> <img src="3157-2019-9-midterm1-davis_files/nr2604.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J101</span><br> mma2240<br> <span class="name">Alamgir, Mohiuddin</span><br> <img src="3157-2019-9-midterm1-davis_files/mma2240.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J103</span><br> so2555<br> <span class="name">Otwane, Said</span><br> <img src="3157-2019-9-midterm1-davis_files/so2555.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J105</span><br> yw3487<br> <span class="name">Wang, Yiyun</span><br> <img src="3157-2019-9-midterm1-davis_files/yw3487.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J107</span><br> kgb2120<br> <span class="name">Baskin, Kyle</span><br> <img src="3157-2019-9-midterm1-davis_files/kgb2120.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J109</span><br> ta2553<br> <span class="name">Azad, Tamjeed</span><br> <img src="3157-2019-9-midterm1-davis_files/ta2553.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J110</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J111</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J1</span><br> ebv2109<br> <span class="name">Veltman, Erica</span><br> <img src="3157-2019-9-midterm1-davis_files/ebv2109.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J3</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J5</span><br> ly2461<br> <span class="name">Yixiang, Chris</span><br> <img src="3157-2019-9-midterm1-davis_files/ly2461.jpg"></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H4</span><br> bw2554<br> <span class="name">Wang, Jacqueline Ziqi</span><br> <img src="3157-2019-9-midterm1-davis_files/bw2554.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H101</span><br> kt2593<br> <span class="name">Tor, Kimly</span><br> <img src="3157-2019-9-midterm1-davis_files/kt2593.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H103</span><br> nis2116<br> <span class="name">Silverstein, Noah</span><br> <img src="3157-2019-9-midterm1-davis_files/nis2116.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H105</span><br> ac4385<br> <span class="name">Choudhury, Archit</span><br> <img src="3157-2019-9-midterm1-davis_files/ac4385.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H107</span><br> bf2441<br> <span class="name">Fridman, Brayn</span><br> <img src="3157-2019-9-midterm1-davis_files/bf2441.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H109</span><br> ba2503<br> <span class="name">Altay, Berkalp</span><br> <img src="3157-2019-9-midterm1-davis_files/ba2503.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H110</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H1</span><br> ym2637<br> <span class="name">Manzi, Yvon</span><br> <img src="3157-2019-9-midterm1-davis_files/ym2637.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H3</span></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G4</span><br> rg3112<br> <span class="name">Garcia, Ricardo</span><br> <img src="3157-2019-9-midterm1-davis_files/rg3112.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G101</span><br> mlb2249<br> <span class="name">Bohn, Maxwell</span><br> <img src="3157-2019-9-midterm1-davis_files/mlb2249.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G103</span><br> poa2104<br> <span class="name">Amankwaa, Phillip</span><br> <img src="3157-2019-9-midterm1-davis_files/poa2104.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G105</span><br> bjb2170<br> <span class="name">Bellick, Benjamin</span><br> <img src="3157-2019-9-midterm1-davis_files/bjb2170.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G107</span><br> yc3387<br> <span class="name">Chen, Claire</span><br> <img src="3157-2019-9-midterm1-davis_files/yc3387.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G109</span><br> nb2838<br> <span class="name">Beltran, Nicolas</span><br> <img src="3157-2019-9-midterm1-davis_files/nb2838.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G110</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G1</span><br> gd2528<br> <span class="name">Ducrest, Gustave</span><br> <img src="3157-2019-9-midterm1-davis_files/gd2528.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G3</span></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F4</span><br> rk2960<br> <span class="name">Khalilov, Rafail</span><br> <img src="3157-2019-9-midterm1-davis_files/rk2960.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F101</span><br> jlb2319<br> <span class="name">Bianco, James</span><br> <img src="3157-2019-9-midterm1-davis_files/jlb2319.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F103</span><br> sgb2145<br> <span class="name">Bruce, Spencer</span><br> <img src="3157-2019-9-midterm1-davis_files/sgb2145.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F105</span><br> cjw2163<br> <span class="name">Juma, Cynthia</span><br> <img src="3157-2019-9-midterm1-davis_files/cjw2163.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F107</span><br> rm3614<br> <span class="name">Mecheri, Raghav</span><br> <img src="3157-2019-9-midterm1-davis_files/rm3614.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F109</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F1</span><br> js5425<br> <span class="name">Sanabria, Jonathan</span><br> <img src="3157-2019-9-midterm1-davis_files/js5425.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F3</span></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E4</span><br> wtm2106<br> <span class="name">Murdoch, William</span><br> <img src="3157-2019-9-midterm1-davis_files/wtm2106.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E101</span><br> jj2990<br> <span class="name">Jordan, Jacob</span><br> <img src="3157-2019-9-midterm1-davis_files/jj2990.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E103</span><br> ac4443<br> <span class="name">Carmona De Sousa Camara, Antonio</span><br> <img src="3157-2019-9-midterm1-davis_files/ac4443.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E105</span><br> iab2131<br> <span class="name">Barral, Ivan</span><br> <img src="3157-2019-9-midterm1-davis_files/iab2131.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E107</span><br> jam2455<br> <span class="name">Maltese, Jesse</span><br> <img src="3157-2019-9-midterm1-davis_files/jam2455.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E108</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E1</span><br> rs3688<br> <span class="name">Sehrawat, Rahul</span><br> <img src="3157-2019-9-midterm1-davis_files/rs3688.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E3</span></td>
+<td></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D6</span><br> ka2607<br> <span class="name">Ayim-Aboagye, Kwabena</span><br> <img src="3157-2019-9-midterm1-davis_files/ka2607.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D101</span><br> xz2795<br> <span class="name">Zhang, Xuechun</span><br> <img src="3157-2019-9-midterm1-davis_files/xz2795.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D103</span><br> zl2890<br> <span class="name">Li, Zhuoxuan</span><br> <img src="3157-2019-9-midterm1-davis_files/zl2890.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D105</span><br> ks3650<br> <span class="name">Shi, Karen</span><br> <img src="3157-2019-9-midterm1-davis_files/ks3650.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D106</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D107</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D1</span><br> jg3994<br> <span class="name">Guo, Jessie</span><br> <img src="3157-2019-9-midterm1-davis_files/jg3994.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D3</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D5</span><br> jlg2266<br> <span class="name">Gilliland, Trey</span><br> <img src="3157-2019-9-midterm1-davis_files/jlg2266.jpg"></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C6</span><br> yrm2106<br> <span class="name">Manzorolhagh, Joshua</span><br> <img src="3157-2019-9-midterm1-davis_files/yrm2106.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C101</span><br> cbo2108<br> <span class="name">Obiofuma Jr., Chudi</span><br> <img src="3157-2019-9-midterm1-davis_files/cbo2108.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C102</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C103</span><br> td2593<br> <span class="name">Dai, Jason</span><br> <img src="3157-2019-9-midterm1-davis_files/td2593.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C105</span><br> dlm2198<br> <span class="name">Maseyev, Daniel</span><br> <img src="3157-2019-9-midterm1-davis_files/dlm2198.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C106</span><br> sj3014<br> <span class="name">Jo, Seong Moon</span><br> <img src="3157-2019-9-midterm1-davis_files/sj3014.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C1</span><br> pb2751<br> <span class="name">Barbosa Teixeira Santos, Pedro</span><br> <img src="3157-2019-9-midterm1-davis_files/pb2751.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C3</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C5</span><br> yf2484<br> <span class="name">Fang, Yiming</span><br> <img src="3157-2019-9-midterm1-davis_files/yf2484.jpg"></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B4</span><br> fag2113<br> <span class="name">Gonzalez, Federick</span><br> <img src="3157-2019-9-midterm1-davis_files/fag2113.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B101</span><br> aqs2104<br> <span class="name">Sui, Annie</span><br> <img src="3157-2019-9-midterm1-davis_files/aqs2104.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B102</span><br> js5142<br> <span class="name">Safin, Jakwanul</span><br> <img src="3157-2019-9-midterm1-davis_files/js5142.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B103</span><br> cl3644<br> <span class="name">Lu, Calvin</span><br> <img src="3157-2019-9-midterm1-davis_files/cl3644.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B104</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B105</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B3</span><br> jzg2108<br> <span class="name">Gao, Jianyu</span><br> <img src="3157-2019-9-midterm1-davis_files/jzg2108.jpg"></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A101</span><br> cgk2128<br> <span class="name">Kinmon, Caleb</span><br> <img src="3157-2019-9-midterm1-davis_files/cgk2128.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A102</span><br> ps3072<br> <span class="name">Sharma, Pranjali</span><br> <img src="3157-2019-9-midterm1-davis_files/ps3072.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A103</span><br> kcc2150<br> <span class="name">Creech, Kyle</span><br> <img src="3157-2019-9-midterm1-davis_files/kcc2150.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A104</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</table></body>

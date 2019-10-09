@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://chat.instructure.com/lti/launch -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="stndz-style">div[class*="item-container-obpd"], a[data-redirect*="paid.outbrain.com"], a[onmousedown*="paid.outbrain.com"] { display: none !important; } a div[class*="item-container-ad"] { height: 0px !important; overflow: hidden !important; position: absolute !important; } div[data-item-syndicated="true"] { display: none !important; } .grv_is_sponsored { display: none !important; } .zergnet-widget-related { display: none !important; } </style>
+    <link rel="stylesheet" href="./canvas-minimal.css" type="text/css">
+    <title>Chat</title>
+    <script>
+//<![CDATA[
+window.gon={};gon.referer="https://courseworks2.columbia.edu/courses/85770/external_tools/382/resource_selection?launch_token=0682b1ce-25ac-4c50-a3d1-304ddf5599c1\u0026launch_type=course_navigation";gon.token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJkYXRhIjp7InJvb21faWQiOiI3ZGI0MzgwNzEzNzVjMDIzNzM3MTNjMTJjNzM4NjlmZjJmNDcwYjY4X2NvbHVtYmlhc2NlX2luc3RydWN0dXJlX2NvbV84NTc3MCIsImlkIjoiMzQ2MDc3IiwiaGlnaF9jb250cmFzdCI6ImZhbHNlIiwibmFtZSI6IkxhdXJlbiBPZ2RlbiIsImF2YXRhcl91cmwiOiJodHRwczovL2NhbnZhcy5pbnN0cnVjdHVyZS5jb20vaW1hZ2VzL21lc3NhZ2VzL2F2YXRhci01MC5wbmciLCJsb2NhbGUiOiJlbiIsInJvbGVzIjpbInVybjpsdGk6cm9sZTppbXMvbGlzL3RlYWNoaW5nYXNzaXN0YW50Il0sImlzX2FkbWluIjpmYWxzZSwicm9vbSI6eyJpZCI6IjdkYjQzODA3MTM3NWMwMjM3MzcxM2MxMmM3Mzg2OWZmMmY0NzBiNjhfY29sdW1iaWFzY2VfaW5zdHJ1Y3R1cmVfY29tXzg1NzcwIiwidG9vbF9jb25zdW1lcl9pbnN0YW5jZV9ndWlkIjoiN2RiNDM4MDcxMzc1YzAyMzczNzEzYzEyYzczODY5ZmYyZjQ3MGI2OF9jb2x1bWJpYXNjZV9pbnN0cnVjdHVyZV9jb20iLCJjb3Vyc2VfaWQiOiI4NTc3MCJ9LCJtYXNxdWVyYWRpbmdfdXNlcl9pZCI6IiRDYW52YXMubWFzcXVlcmFkaW5nVXNlci51c2VySWQifSwiZXhwIjoxNTcwNTg4MTQzfQ.qAZ1Jm2M-d_IzCwQ-uXJ5p-lTFG1GMq_NaSJakLEnDPgRKZQJ0Xk-LYZ1ESZSOcdyJ7hR0GekATNnUELkMM9Gw";gon.pandapush={"url":"https://pandapush-iad-prod.inscloudgate.net/push","messagesChannel":"/uxhkHPwdE7DwwSGFDXKb/private/7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com_85770/messages","messagesToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXlJZCI6IlBTSURBb0tTVmc1YXR2clhRRzFoIiwiY2hhbm5lbCI6Ii91eGhrSFB3ZEU3RHd3U0dGRFhLYi9wcml2YXRlLzdkYjQzODA3MTM3NWMwMjM3MzcxM2MxMmM3Mzg2OWZmMmY0NzBiNjhfY29sdW1iaWFzY2VfaW5zdHJ1Y3R1cmVfY29tXzg1NzcwL21lc3NhZ2VzIiwicHViIjpmYWxzZSwic3ViIjp0cnVlfQ.ia3ZUPdlanbTII3Oz_ETPOiDod6Vhq_YKgKjiQ-Np-Y","presenceChannel":"/uxhkHPwdE7DwwSGFDXKb/presence/7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com_85770","presenceToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXlJZCI6IlBTSURBb0tTVmc1YXR2clhRRzFoIiwiY2hhbm5lbCI6Ii91eGhrSFB3ZEU3RHd3U0dGRFhLYi9wcmVzZW5jZS83ZGI0MzgwNzEzNzVjMDIzNzM3MTNjMTJjNzM4NjlmZjJmNDcwYjY4X2NvbHVtYmlhc2NlX2luc3RydWN0dXJlX2NvbV84NTc3MCIsInB1YiI6ZmFsc2UsInN1YiI6dHJ1ZSwicHJlc2VuY2UiOnsiaWQiOiIzNDYwNzciLCJuYW1lIjoiTGF1cmVuIE9nZGVuIiwiYXZhdGFyX3VybCI6Imh0dHBzOi8vY2FudmFzLmluc3RydWN0dXJlLmNvbS9pbWFnZXMvbWVzc2FnZXMvYXZhdGFyLTUwLnBuZyJ9fQ.ux-udM-7SvPIySRjgIXdJQ3koYxMiuWo9pE_t08hqI0","typingSubChannel":"/uxhkHPwdE7DwwSGFDXKb/private/7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com_85770/typing/*","typingSubToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXlJZCI6IlBTSURBb0tTVmc1YXR2clhRRzFoIiwiY2hhbm5lbCI6Ii91eGhrSFB3ZEU3RHd3U0dGRFhLYi9wcml2YXRlLzdkYjQzODA3MTM3NWMwMjM3MzcxM2MxMmM3Mzg2OWZmMmY0NzBiNjhfY29sdW1iaWFzY2VfaW5zdHJ1Y3R1cmVfY29tXzg1NzcwL3R5cGluZy8qIiwicHViIjpmYWxzZSwic3ViIjp0cnVlfQ.ySIS3n_uJHTwsgF4cKjmpy3vyFpIECIj2CvuKeD6HFQ","typingPubChannel":"/uxhkHPwdE7DwwSGFDXKb/private/7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com_85770/typing/346077","typingPubToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXlJZCI6IlBTSURBb0tTVmc1YXR2clhRRzFoIiwiY2hhbm5lbCI6Ii91eGhrSFB3ZEU3RHd3U0dGRFhLYi9wcml2YXRlLzdkYjQzODA3MTM3NWMwMjM3MzcxM2MxMmM3Mzg2OWZmMmY0NzBiNjhfY29sdW1iaWFzY2VfaW5zdHJ1Y3R1cmVfY29tXzg1NzcwL3R5cGluZy8zNDYwNzciLCJwdWIiOnRydWUsInN1YiI6ZmFsc2V9.qg9HoThBAnntk5-oUqqoBEsjaRbw9qwox65CusCd6zw"};gon.user={"room_id":"7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com_85770","id":"346077","high_contrast":"false","name":"Lauren Ogden","avatar_url":"https://canvas.instructure.com/images/messages/avatar-50.png","locale":"en","roles":["urn:lti:role:ims/lis/teachingassistant"],"is_admin":false,"room":{"id":"7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com_85770","tool_consumer_instance_guid":"7db438071375c02373713c12c73869ff2f470b68_columbiasce_instructure_com","course_id":"85770"},"masquerading_user_id":"$Canvas.masqueradingUser.userId"};gon.expires="2019-10-09T02:29:03.606Z";
+//]]>
+</script>
+  <style type="text/css">.ctf-user-list__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .5rem; }
+
+.ctf-user-list {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  width: 200px;
+  max-height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #eae9e9; }
+  .ctf-user-list .ctf-user-list__user {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px 0; }
+  .ctf-user-list .ctf-user-list__user-avatar {
+    width: 40px;
+    margin-right: 20px; }
+    .ctf-user-list .ctf-user-list__user-avatar img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+
+.ctf-user-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100px; }
+
+.icon-mini-arrow-down:before {
+  color: #394b58; }
+</style><style type="text/css">.ctf-header {
+  border-bottom: 1px solid #C7C7C7;
+  background-color: #fff;
+  flex: 0 0 2rem; }
+
+.header {
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+.ding-toggle {
+  padding-left: 20px; }
+
+.user-list {
+  padding-left: 100px; }
+
+.header-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #C7C7C7; }
+
+.right-side-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+
+.ctf-userlist-container {
+  float: left;
+  width: 50%; }
+
+.ctf-close-minimize {
+  padding: 5px 10px 5px 0px;
+  float: right;
+  display: none; }
+
+.ctf-mini-chat-header {
+  display: none; }
+
+.mini-chat-heading {
+  display: none; }
+
+.slider {
+  float: right;
+  padding-right: 15px; }
+
+@media screen and (max-width: 300px) {
+  .user-list {
+    display: none; }
+  .header-contents {
+    display: none; }
+  .header {
+    display: none; }
+  .ding-toggle {
+    display: none; }
+  .ctf-header {
+    height: 30px; }
+  .ctf-close-minimize {
+    display: flex;
+    flex-direction: row; }
+  .mini-chat-heading {
+    padding: 5px 0px 5px 10px;
+    display: block; }
+  .ctf-mini-chat-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  .slider {
+    display: none; } }
+</style><style type="text/css">.ctf-message {
+  padding: 5px 10px;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  position: relative;
+  padding-left: 70px; }
+  @media screen and (max-width: 300px) {
+    .ctf-message .ctf-message__buttons, .ctf-message .ctf-message__avatar {
+      display: none; } }
+  .ctf-message .ctf-message__buttons {
+    position: absolute;
+    right: 0;
+    line-height: 32px;
+    bottom: 0;
+    z-index: 5; }
+    .ctf-message .ctf-message__buttons button {
+      opacity: 0; }
+      .ctf-message .ctf-message__buttons button:focus {
+        opacity: 1; }
+    .ctf-message .ctf-message__buttons a:link, .ctf-message .ctf-message__buttons a:visited {
+      color: rgba(0, 0, 0, 0.5);
+      cursor: pointer; }
+      .ctf-message .ctf-message__buttons a:link:before, .ctf-message .ctf-message__buttons a:visited:before {
+        font-size: 12px; }
+    .ctf-message .ctf-message__buttons a:hover {
+      color: #0096db; }
+  .ctf-message .ctf-message__date {
+    margin-left: 5px; }
+  .ctf-message .ctf-message__text-wrapper-sending {
+    color: #eee; }
+  .ctf-message .ctf-message__text-wrapper-failed {
+    color: #EE0612; }
+  .ctf-message .ctf-message__text-wrapper {
+    word-break: initial;
+    position: relative;
+    transition: background .5s; }
+    .ctf-message .ctf-message__text-wrapper .ctf-message__text__time {
+      display: block;
+      position: absolute;
+      left: -70px;
+      right: -15px;
+      background: rgba(0, 0, 0, 0.05);
+      top: 0;
+      bottom: 0;
+      color: #556572;
+      line-height: 30px;
+      text-indent: 15px;
+      font-size: 12px;
+      opacity: 0; }
+    .ctf-message .ctf-message__text-wrapper:hover .ctf-message__buttons a {
+      position: static;
+      width: auto;
+      height: auto; }
+    .ctf-message .ctf-message__text-wrapper:hover button {
+      opacity: 1; }
+    .ctf-message .ctf-message__text-wrapper:hover .ctf-message__text__time {
+      opacity: 1; }
+    .ctf-message .ctf-message__text-wrapper:hover:nth-child(2) .ctf-message__text__time {
+      color: transparent; }
+    .ctf-message .ctf-message__text-wrapper:hover:last-of-type .ctf-message__text:after {
+      bottom: -5px; }
+    .ctf-message .ctf-message__text-wrapper:hover .ctf-message__buttons {
+      opacity: 1; }
+  .ctf-message .ctf-message__avatar {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-right: 10px; }
+    .ctf-message .ctf-message__avatar img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+  .ctf-message span {
+    word-wrap: normal; }
+  .ctf-message .ctf-message__content {
+    line-height: 22px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    word-wrap: break-word; }
+  .ctf-message .ctf-message__usernmae {
+    margin-right: 10px; }
+  .ctf-message .ctf-message__name {
+    margin: 0;
+    font-weight: bold;
+    color: #333; }
+    .ctf-message .ctf-message__name + .ctf-message__text-wrapper:hover .ctf-message__text:after {
+      top: -33px;
+      content: ''; }
+    .ctf-message .ctf-message__name + .ctf-message__text-wrapper .ctf-message__time {
+      display: none; }
+    .ctf-message .ctf-message__name .ctf-message__pills-container {
+      float: left; }
+  .ctf-message .ctf-message__time {
+    word-break: break-word;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px; }
+  .ctf-message .ctf-message__text {
+    margin: 0;
+    padding: 5px 40px 5px 0;
+    font-size: 15px;
+    position: relative; }
+    .ctf-message .ctf-message__text a:link, .ctf-message .ctf-message__text a:visited, .ctf-message .ctf-message__text a:active {
+      background: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      color: #D01A19;
+      transform: scale(1);
+      transition: transform .3s, color .3s; }
+    .ctf-message .ctf-message__text a:hover {
+      color: #0096db;
+      transform: scale(2.3); }
+    .ctf-message .ctf-message__text .ctf-message__text__content {
+      position: relative;
+      z-index: 5; }
+    .ctf-message .ctf-message__text a {
+      z-index: 5; }
+  .ctf-message .emojione {
+    width: 20px;
+    height: 20px;
+    transition: transform .3s; }
+    .ctf-message .emojione:hover {
+      transform: scale(1.5) rotateZ(360deg); }
+  .ctf-message .ctf-message__badge {
+    background-color: #008EE2;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 14px;
+    font-size: .6em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: -2px; }
+  .ctf-message .ctf-message__badge__high_contrast {
+    background-color: #0770A3;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 14px;
+    font-size: .6em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin: 0 10px;
+    position: relative;
+    top: -2px; }
+
+@media screen and (max-width: 300px) {
+  .ctf-message__text__time {
+    visibility: hidden; }
+  .ctf-message {
+    padding-left: 10px; } }
+</style><style type="text/css">.ctf-message-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 29px;
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  .ctf-message-list:focus {
+    outline: 0.1875rem solid #008EE2;
+    outline-offset: -0.1875rem; }
+
+.ctf-message-list__high-contrast:focus {
+  outline: 0.1875rem solid #0770A3; }
+
+.ctf-date-header {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+  font-size: .9em; }
+  .ctf-date-header h2 {
+    font-family: 'PT Sans', sans-serif;
+    display: inline;
+    padding: 0 15px;
+    background: #fff;
+    position: relative;
+    z-index: 2; }
+  .ctf-date-header:after {
+    content: '';
+    background: #ddd;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%; }
+
+.LoadMore {
+  text-align: center; }
+</style><style type="text/css">.emoji-dialog {
+  width: 276px;
+  height: 220px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.emoji-dialog .emoji-dialog-header {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 42px;
+  padding: 0 10px;
+  background-color: #F5F7F9;
+}
+
+.emoji-dialog .emoji-dialog-header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.emoji-dialog .emoji-dialog-header li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 32px;
+  height: 42px;
+  padding: 9px 4px;
+}
+
+.emoji-dialog .emoji-dialog-header img {
+  width: 22px;
+  height: 22px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.emoji-dialog .emoji-dialog-header li.active {
+  background: #fff;
+}
+
+.emoji-dialog .emoji-dialog-header li.active img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.emoji-dialog .emoji-grandlist {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100% - 42px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.emoji-dialog .emoji-category-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.emoji-dialog .emoji-category-list li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.emoji-dialog .emoji-category-header {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #444;
+  padding: 0 4px;
+}
+
+.emoji-dialog .modifiers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 22px;
+  right: 15px;
+}
+
+.emoji-dialog.with-search .modifiers {
+  top: 52px;
+}
+
+.emoji-dialog .modifiers li {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.emoji-dialog .modifiers .modifier {
+  display: inline-block;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+
+.emoji-dialog .modifiers .modifier.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  top: 2px;
+  left: 2px;
+}
+
+.emoji-dialog .modifiers li:hover {
+  -moz-transition-duration: 200ms;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.emoji-dialog .emoji-search-wrapper {
+  padding: 0 5px;
+}
+
+.emoji-dialog .emoji-search {
+  font-size: 12px;
+  padding: 6px 4px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.emoji-dialog .emoji-category-list li:hover {
+  background: #F5F7F9;
+}
+
+.emoji-dialog .emoji-category-list .emoji img {
+  width: 22px;
+  height: 22px;
+}
+</style><style type="text/css">.ctf-message-input-container {
+  flex: 0 0 3rem; }
+
+.ctf-message-input {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .ctf-message-input .ctf-message-input__wrapper {
+    background: #fff;
+    border: 2px solid #bbb;
+    padding: 10px 50px 10px 0;
+    border-radius: 5px;
+    position: relative;
+    width: 80%;
+    margin-right: 5px; }
+    .ctf-message-input .ctf-message-input__wrapper input {
+      border: none;
+      width: 100%;
+      font-size: 16px;
+      text-indent: 15px;
+      outline: none;
+      padding: 0; }
+    .ctf-message-input .ctf-message-input__wrapper .ctf-emoji-button {
+      border: none;
+      background: transparent;
+      position: absolute;
+      right: 3px;
+      top: 6px;
+      cursor: pointer;
+      opacity: .7;
+      transition: transform .3s, opacity .3s; }
+      .ctf-message-input .ctf-message-input__wrapper .ctf-emoji-button:hover {
+        opacity: 1;
+        transform: scale(1.3) rotateZ(360deg); }
+      .ctf-message-input .ctf-message-input__wrapper .ctf-emoji-button img {
+        width: 24px;
+        box-shadow: 0 0 0 2px #556572;
+        height: 24px;
+        border-radius: 50%; }
+    .ctf-message-input .ctf-message-input__wrapper.ctf-message-input__wrapper__show-emoji .ctf-emoji-button {
+      opacity: 1;
+      transform: scale(1.3) rotateZ(360deg); }
+  @media screen and (max-width: 300px) {
+    .ctf-message-input .ctf-message-input__wrapper {
+      width: 50%; } }
+  .ctf-message-input .ctf-emoji-picker {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 60px; }
+
+@media screen and (max-width: 300px) {
+  .ctf-emoji-button {
+    display: none; } }
+</style><style type="text/css">.ctf-users-typing {
+  padding-left: 70px;
+  background: #fff;
+  font-size: 0.8em;
+  color: #aaa;
+  height: 20px;
+  flex: 0 0 1rem; }
+</style><style type="text/css">.ctf-client-status {
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  z-index: 10; }
+</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);</style><style type="text/css">html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'PT Sans', sans-serif; }
+
+#root {
+  height: 100%; }
+
+.ctf-container {
+  background: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+  .sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto; }
+
+.online-indicator {
+  margin: 0 10px; }
+  .online-indicator--online {
+    background-color: #4CAE4E;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%; }
+</style><style type="text/css" data-glamor=""></style></head>
+  <body>
+    <div id="alert_area" class="screenreader-only" role="alert" aria-live="assertive" aria-relevant="additions text" aria-atomic="false"></div>
+    <div id="root"><div data-reactroot="" class="ctf-container"><div><div><div role="log" aria-live="assertive" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; width: 1px; position: absolute;"></div><div role="log" aria-live="assertive" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; width: 1px; position: absolute;"></div><div role="log" aria-live="polite" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; width: 1px; position: absolute;">Messages loaded from 9/3/19 9:22 PM</div><div role="log" aria-live="polite" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; width: 1px; position: absolute;"></div></div><!-- react-empty: 8 --></div><audio src="/ding.wav" preload="auto"></audio><div class="ctf-header"><div class="header"><h1 class="_3Zltvf_ _3Y4y6OP _2oMtE-4 _58ZWQOM">Course Chat</h1></div><div class="header-contents"><div class="user-list"><span><span class="_3Zltvf_ _2VYW9yg"><button aria-expanded="false" class="_3IooTL8" type="button" role="button" tabindex="0"><span class="ii51ZkV _1VbQOzI MAMhyiM _3kbl2G4 _3ilSIlw"><!-- react-text: 19 -->121 people online<!-- /react-text --><span class="_3fbL2UF">Click to open popup list</span><i class="icon-mini-arrow-down" aria-hidden="true"></i></span></button></span><!-- react-empty: 22 --></span></div><div class="right-side-content"><div class="ding-toggle"><span class="ii51ZkV _1VbQOzI _2vkwkEn _3kbl2G4 _3ilSIlw">New message alerts</span></div><div class="ding-toggle"><div class="_2VkpwVQ"><input type="checkbox" id="Checkbox__LaC26p7KnTbp" value="small" aria-checked="false" class="_2WNlsrI"><label for="Checkbox__LaC26p7KnTbp" class="_1eJnd2L"><span class="nHHfH9e"><span class="_2xsDJnI _3tOi6Zn" aria-hidden="true"><span class="_3i38Y85"><span class="TToYBYO"><svg name="IconX" viewBox="0 0 1920 1920" rotate="0" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="rDcS_u2 _1-0JnEU _17OBplh _2Z_fZea"><g role="presentation"><path d="M771.548 960.11L319 1412.658l188.562 188.562 452.548-452.548 452.548 452.548 188.562-188.562-452.548-452.548 452.548-452.548L1412.658 319 960.11 771.548 507.562 319 319 507.562z" fill-rule="nonzero" stroke="none" stroke-width="1"></path></g></svg></span></span></span><span class="_1jXWxwV"><span class="_3fbL2UF">New message alerts</span></span></span><!-- react-empty: 39 --></label></div></div></div></div><div class="ctf-mini-chat-header"><div class="mini-chat-heading"><h2 class="_3Zltvf_ _3Y4y6OP _2hHRRzR _58ZWQOM">Course Chat</h2></div><div class="ctf-close-minimize"><button id="ctf-maximize-minimize-button" type="button" aria-label="Maximize Chat" class="Button Button--icon-action"><i class="icon-mini-arrow-up" aria-hidden="true"></i></button></div></div></div><div class="LoadMore sr-only"><button disabled="" aria-disabled="true" type="button" role="button" tabindex="0" class="_3Zltvf_ _3C6pvc5 _2POkNcT _3QASkHv _11yd0l0 _3UROOwf _1RE0GJ7" style="margin: 0px; cursor: not-allowed;"><span class="QJpaM9j"><!-- react-text: 49 -->All items loaded<!-- /react-text --></span></button></div><ul class="ctf-message-list" tabindex="0"><div class="LoadMore-display"></div><li class="ctf-date-header"><h2 class="ii51ZkV _1VbQOzI MAMhyiM _3kbl2G4">9/3/19</h2></li><li class="ctf-message"><div class="ctf-message__avatar" aria-hidden="true"><img src="./avatar-50(1).png"></div><div class="ctf-message__content"><div class="ctf-message__name"><!-- react-text: 80 -->Lauren Hale<!-- /react-text --><span class="ctf-message__date"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">9/3/19</span></span><span class="ctf-message__time"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">9:22 PM</span></span></div><div class="ctf-message__pills-container"></div><div class="ctf-message__text-wrapper"><p class="ctf-message__text"><span class="ctf-message__text__time">9:22 PM</span><span class="ctf-message__text__content">Could someone give me the assignment instructions for the assignment due tonight? </span></p></div></div></li><li class="ctf-message"><div class="ctf-message__avatar" aria-hidden="true"><img src="./avatar-50(1).png"></div><div class="ctf-message__content"><div class="ctf-message__name"><!-- react-text: 95 -->Nathan Coulibaly<!-- /react-text --><span class="ctf-message__date"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">9/3/19</span></span><span class="ctf-message__time"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">9:27 PM</span></span></div><div class="ctf-message__pills-container"></div><div class="ctf-message__text-wrapper"><p class="ctf-message__text"><span class="ctf-message__text__time">9:27 PM</span><span class="ctf-message__text__content">^^</span></p></div><div class="ctf-message__text-wrapper"><p class="ctf-message__text"><span class="ctf-message__text__time">10:00 PM</span><span class="ctf-message__text__content">You can find it by going to the course website and clicking the "overview and logistics" link</span></p></div></div></li><li class="ctf-message"><div class="ctf-message__avatar" aria-hidden="true"><img src="./avatar-50(1).png"></div><div class="ctf-message__content"><div class="ctf-message__name"><!-- react-text: 114 -->Lauren Hale<!-- /react-text --><span class="ctf-message__date"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">9/3/19</span></span><span class="ctf-message__time"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">10:11 PM</span></span></div><div class="ctf-message__pills-container"></div><div class="ctf-message__text-wrapper"><p class="ctf-message__text"><span class="ctf-message__text__time">10:11 PM</span><span class="ctf-message__text__content">Thank you </span></p></div><div class="ctf-message__text-wrapper"><p class="ctf-message__text"><span class="ctf-message__text__time">10:11 PM</span><span class="ctf-message__text__content"><a href="http://www.cs.columbia.edu/~jae/3157/" target="blank">http://www.cs.columbia.edu/~jae/3157/</a></span></p></div></div></li><li class="ctf-date-header"><h2 class="ii51ZkV _1VbQOzI MAMhyiM _3kbl2G4">9/4/19</h2></li><li class="ctf-message"><div class="ctf-message__avatar" aria-hidden="true"><img src="./avatar-50(1).png"></div><div class="ctf-message__content"><div class="ctf-message__name"><!-- react-text: 135 -->Zongxi Cheng<!-- /react-text --><span class="ctf-message__date"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">9/4/19</span></span><span class="ctf-message__time"><span class="ii51ZkV ZFg6yPN _2vkwkEn _3kbl2G4 _3ilSIlw">12:36 PM</span></span></div><div class="ctf-message__pills-container"></div><div class="ctf-message__text-wrapper"><p class="ctf-message__text"><span class="ctf-message__text__time">12:36 PM</span><span class="ctf-message__text__content">I just added this class. Is the homework due yesterday any weight in the total grade?</span></p></div></div></li></ul><div class="ctf-message-input-container"><form class="ctf-message-input"><div class="ctf-message-input__wrapper"><label><span class="sr-only">Enter message</span><input></label><button aria-label="Insert emojis button. For best experience navigate the emoji picker via tabs and spaces" type="button" title="Insert Emojis" class="ctf-emoji-button"><img src="./1f603.png"></button></div><button type="submit" class="_3Zltvf_ _3C6pvc5 _2mW8Gy7 _2T9m9MZ _11yd0l0 _3UROOwf" style="margin: 0px; cursor: pointer;"><span class="QJpaM9j"><!-- react-text: 70 -->Send<!-- /react-text --></span></button></form></div><div class="ctf-users-typing"></div><div></div></div></div>
+  <script src="./client.js"></script>
+  <script src="./main_30e03b9467a7dce63d29.bundle.js"></script>
+ 
+
+</body></html>
