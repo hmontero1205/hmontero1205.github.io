@@ -1,0 +1,715 @@
+
+    <style>
+            table {
+                table-layout: fixed;
+                width: 100%;
+            }
+            img {
+                width: 60px;
+                vertical-align: text-bottom;
+            }
+            .seat {
+                font-weight: bold;
+                font-size: 14pt;
+                vertical-align: top;
+            }
+            .name {
+                font-size: 9pt;
+            }
+            td {
+                text-align: center;
+                vertical-align: baseline;
+                width: 70px;
+            }
+            .unselected {
+                background-color: white;
+            }
+            .selected {
+                background-color: orange;
+            }
+    </style>
+
+    <script>
+        function selectStudent(cell) {
+            if (cell.className === "unselected") {
+                cell.className = "selected";
+            } else {
+                cell.className = "unselected";
+            }
+        }
+    </script>
+    <body><table border=1>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P1</span><br> sg3789<br> <span class="name">Ghose, Shomik</span><br> <img src="pupin301_files/sg3789.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P3</span><br> csj2112<br> <span class="name">Johnson, Claire</span><br> <img src="pupin301_files/csj2112.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P11</span><br> msk2237<br> <span class="name">Khan, Shayan</span><br> <img src="pupin301_files/msk2237.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P13</span><br> zg2326<br> <span class="name">Gonzalez, Zena-Marie</span><br> <img src="pupin301_files/zg2326.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P15</span><br> yk2822<br> <span class="name">Ke, Yuyan</span><br> <img src="pupin301_files/yk2822.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P17</span><br> dsm2184<br> <span class="name">Mao, David</span><br> <img src="pupin301_files/dsm2184.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">P18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O1</span><br> sa3523<br> <span class="name">Adansi, Sena</span><br> <img src="pupin301_files/sa3523.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O3</span><br> jk4235<br> <span class="name">Kang, Jennifer</span><br> <img src="pupin301_files/jk4235.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O5</span><br> hl3231<br> <span class="name">Lu, Abby</span><br> <img src="pupin301_files/hl3231.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O7</span><br> arj2145<br> <span class="name">Jackson, Aaron</span><br> <img src="pupin301_files/arj2145.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O11</span><br> jth2165<br> <span class="name">Hurley, Jack</span><br> <img src="pupin301_files/jth2165.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O13</span><br> rhj2002<br> <span class="name">Jordan, Robert</span><br> <img src="pupin301_files/rhj2002.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O15</span><br> xj2253<br> <span class="name">Jiang, Xinye</span><br> <img src="pupin301_files/xj2253.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O17</span><br> cm4003<br> <span class="name">Mao, Caroline</span><br> <img src="pupin301_files/cm4003.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">O18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N1</span><br> fac2131<br> <span class="name">Cordova, Frederick</span><br> <img src="pupin301_files/fac2131.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N3</span><br> kc3334<br> <span class="name">Chuen, Kenneth</span><br> <img src="pupin301_files/kc3334.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N5</span><br> ebe2113<br> <span class="name">Enright, Emerson</span><br> <img src="pupin301_files/ebe2113.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N7</span><br> jam2454<br> <span class="name">Mastran, James</span><br> <img src="pupin301_files/jam2454.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N9</span><br> md3713<br> <span class="name">Dimofte, Mara</span><br> <img src="pupin301_files/md3713.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N11</span><br> jjh2210<br> <span class="name">Herrera, Jason</span><br> <img src="pupin301_files/jjh2210.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N13</span><br> jh4022<br> <span class="name">Heo, Jung Mark</span><br> <img src="pupin301_files/jh4022.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N15</span><br> rbf2121<br> <span class="name">Farkhoor, Rojeen</span><br> <img src="pupin301_files/rbf2121.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N17</span><br> cbb2160<br> <span class="name">Brown, Caleb</span><br> <img src="pupin301_files/cbb2160.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">N18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M1</span><br> am5083<br> <span class="name">Mohbat, Audrey</span><br> <img src="pupin301_files/am5083.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M3</span><br> lh2933<br> <span class="name">Huo, Luvena</span><br> <img src="pupin301_files/lh2933.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M5</span><br> zg2323<br> <span class="name">Gao, Cynthia</span><br> <img src="pupin301_files/zg2323.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M7</span><br> jdl2180<br> <span class="name">Lord, John</span><br> <img src="pupin301_files/jdl2180.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M9</span><br> crc2194<br> <span class="name">Chrin, Rose</span><br> <img src="pupin301_files/crc2194.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M11</span><br> hd2455<br> <span class="name">Du, Hong Sen</span><br> <img src="pupin301_files/hd2455.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M13</span><br> yg2705<br> <span class="name">Guo, Yuki</span><br> <img src="pupin301_files/yg2705.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M15</span><br> kpd2128<br> <span class="name">Duff, Katherine</span><br> <img src="pupin301_files/kpd2128.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M17</span><br> jcd2220<br> <span class="name">Doherty, Julia</span><br> <img src="pupin301_files/jcd2220.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">M18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L1</span><br> cec2192<br> <span class="name">Chen, Carolyn</span><br> <img src="pupin301_files/cec2192.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L3</span><br> dcg2151<br> <span class="name">Glover, Destiny</span><br> <img src="pupin301_files/dcg2151.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L5</span><br> lb3268<br> <span class="name">Barbosa Viana, Lou</span><br> <img src="pupin301_files/lb3268.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L7</span><br> tta2117<br> <span class="name">Abella, Terric</span><br> <img src="pupin301_files/tta2117.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L9</span><br> kk3084<br> <span class="name">Kurttepeli, Kerim</span><br> <img src="pupin301_files/kk3084.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L11</span><br> nmk2146<br> <span class="name">Kovelamudi, Nikhil</span><br> <img src="pupin301_files/nmk2146.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L13</span><br> cl3816<br> <span class="name">Liu, Chuyun</span><br> <img src="pupin301_files/cl3816.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L15</span><br> yl4409<br> <span class="name">Liu, Yunpeng</span><br> <img src="pupin301_files/yl4409.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L17</span><br> sa3657<br> <span class="name">Alam, Shailha</span><br> <img src="pupin301_files/sa3657.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">L18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K1</span><br> asm2265<br> <span class="name">Mendez, Angel</span><br> <img src="pupin301_files/asm2265.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K3</span><br> gm2823<br> <span class="name">Molenaar, Giza</span><br> <img src="pupin301_files/gm2823.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K5</span><br> jd3519<br> <span class="name">Duodu, Joseph</span><br> <img src="pupin301_files/jd3519.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K7</span><br> jmk2283<br> <span class="name">Krisberg, Jeremy</span><br> <img src="pupin301_files/jmk2283.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K9</span><br> tc3039<br> <span class="name">Chen, Thomas</span><br> <img src="pupin301_files/tc3039.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K11</span><br> asp2199<br> <span class="name">Nascimento, Anthony</span><br> <img src="pupin301_files/asp2199.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K13</span><br> sc4658<br> <span class="name">Chun, Sang Jun</span><br> <img src="pupin301_files/sc4658.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K15</span><br> lrc2161<br> <span class="name">Crawford, Lord</span><br> <img src="pupin301_files/lrc2161.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K17</span><br> tc3070<br> <span class="name">Chu, Linh</span><br> <img src="pupin301_files/tc3070.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">K18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J1</span><br> wrj2106<br> <span class="name">Jesselson, Reid</span><br> <img src="pupin301_files/wrj2106.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J3</span><br> aym2120<br> <span class="name">Ma, Anthony</span><br> <img src="pupin301_files/aym2120.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J5</span><br> lld2131<br> <span class="name">do Valle, Luiz</span><br> <img src="pupin301_files/lld2131.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J7</span><br> aj2929<br> <span class="name">Jagadeesan, Ashvin</span><br> <img src="pupin301_files/aj2929.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J9</span><br> wl2750<br> <span class="name">Li, Bennington</span><br> <img src="pupin301_files/wl2750.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J11</span><br> tf2478<br> <span class="name">Fabiha, Tabassum</span><br> <img src="pupin301_files/tf2478.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J13</span><br> al4008<br> <span class="name">Lindenbaum, Alexander</span><br> <img src="pupin301_files/al4008.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J15</span><br> ml4223<br> <span class="name">Linz, Miriam</span><br> <img src="pupin301_files/ml4223.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J17</span><br> wjh2129<br> <span class="name">Hu, Wesley</span><br> <img src="pupin301_files/wjh2129.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">J18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I1</span><br> syk2145<br> <span class="name">Kim, Sun</span><br> <img src="pupin301_files/syk2145.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I3</span><br> oi2136<br> <span class="name">Ivleva, Olga</span><br> <img src="pupin301_files/oi2136.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I5</span><br> lm3411<br> <span class="name">Melo, Lucas</span><br> <img src="pupin301_files/lm3411.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I7</span><br> bme2119<br> <span class="name">Eshete, Benyam</span><br> <img src="pupin301_files/bme2119.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I9</span><br> mj2887<br> <span class="name">Jang, MiHyun</span><br> <img src="pupin301_files/mj2887.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I11</span><br> seh2209<br> <span class="name">Hancock, Sarah</span><br> <img src="pupin301_files/seh2209.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I13</span><br> mg4077<br> <span class="name">Gu, Mary</span><br> <img src="pupin301_files/mg4077.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I15</span><br> kc3265<br> <span class="name">Cheng, Ki Hin</span><br> <img src="pupin301_files/kc3265.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I17</span><br> wtm2106<br> <span class="name">Murdoch, William</span><br> <img src="pupin301_files/wtm2106.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">I18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H1</span><br> amm2478<br> <span class="name">Medina, Andrew</span><br> <img src="pupin301_files/amm2478.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H3</span><br> tc2963<br> <span class="name">Chen, Tiffeny</span><br> <img src="pupin301_files/tc2963.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H5</span><br> sdl2141<br> <span class="name">Landa, Sam</span><br> <img src="pupin301_files/sdl2141.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H7</span><br> jc5349<br> <span class="name">Chen, Jiayi</span><br> <img src="pupin301_files/jc5349.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H9</span><br> gy2279<br> <span class="name">Guo, Yitong</span><br> <img src="pupin301_files/gy2279.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H11</span><br> jbg2154<br> <span class="name">Greenfield, Benjamin</span><br> <img src="pupin301_files/jbg2154.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H13</span><br> cjh2222<br> <span class="name">HOANG, Caroline</span><br> <img src="pupin301_files/cjh2222.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H15</span><br> jh4192<br> <span class="name">Hu, Jiayang</span><br> <img src="pupin301_files/jh4192.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H17</span><br> aa4290<br> <span class="name">Assal, Amina</span><br> <img src="pupin301_files/aa4290.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">H18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G1</span><br> yn2376<br> <span class="name">Nie, Neil</span><br> <img src="pupin301_files/yn2376.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G3</span><br> ic2504<br> <span class="name">Chau, Ivan</span><br> <img src="pupin301_files/ic2504.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G5</span><br> xl2950<br> <span class="name">Li, Xijiao</span><br> <img src="pupin301_files/xl2950.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G7</span><br> bmc2164<br> <span class="name">Cuevas, Brandon</span><br> <img src="pupin301_files/bmc2164.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G9</span><br> alc2281<br> <span class="name">Chakravarthy, Ananya</span><br> <img src="pupin301_files/alc2281.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G11</span><br> sm4791<br> <span class="name">Mongkalakorn, Max</span><br> <img src="pupin301_files/sm4791.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G13</span><br> ayd2108<br> <span class="name">Du, Alan</span><br> <img src="pupin301_files/ayd2108.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G15</span><br> mab2400<br> <span class="name">Bramel, Mia</span><br> <img src="pupin301_files/mab2400.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G17</span><br> aja2197<br> <span class="name">Adessa, Anthony</span><br> <img src="pupin301_files/aja2197.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">G18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F1</span><br> tal2151<br> <span class="name">Lipke, Thaddeus</span><br> <img src="pupin301_files/tal2151.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F3</span><br> awc2146<br> <span class="name">Chee, Andrew</span><br> <img src="pupin301_files/awc2146.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F5</span><br> yn2378<br> <span class="name">Nie, Yunzhe</span><br> <img src="pupin301_files/yn2378.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F7</span><br> jhi2103<br> <span class="name">Itzler, Jonathan</span><br> <img src="pupin301_files/jhi2103.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F9</span><br> gb2611<br> <span class="name">Billingsley, Gregory</span><br> <img src="pupin301_files/gb2611.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F11</span><br> mg4009<br> <span class="name">Gao, Michael</span><br> <img src="pupin301_files/mg4009.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F13</span><br> ng2528<br> <span class="name">Gupta, Nick</span><br> <img src="pupin301_files/ng2528.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F14</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F15</span><br> abh2171<br> <span class="name">Higaki, Akira</span><br> <img src="pupin301_files/abh2171.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F17</span><br> atk2141<br> <span class="name">Kim, Ashley</span><br> <img src="pupin301_files/atk2141.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">F18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E1</span><br> deb2189<br> <span class="name">Bufano, Danielle</span><br> <img src="pupin301_files/deb2189.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E3</span><br> jm4609<br> <span class="name">Marchal, Jacqueline</span><br> <img src="pupin301_files/jm4609.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E5</span><br> jag2384<br> <span class="name">Ghaeli, Justin</span><br> <img src="pupin301_files/jag2384.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E7</span><br> zl2546<br> <span class="name">Laban, Zeina</span><br> <img src="pupin301_files/zl2546.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E9</span><br> tc2893<br> <span class="name">Chen, Tao</span><br> <img src="pupin301_files/tc2893.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E11</span><br> rh2920<br> <span class="name">Hou, Ryan</span><br> <img src="pupin301_files/rh2920.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E13</span><br> htn2115<br> <span class="name">Nguyen, Havi</span><br> <img src="pupin301_files/htn2115.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E14</span><br> dal2192<br> <span class="name">Lam, Deborah</span><br> <img src="pupin301_files/dal2192.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E15</span><br> mgm2190<br> <span class="name">McGary, Matthew</span><br> <img src="pupin301_files/mgm2190.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E17</span><br> rn2473<br> <span class="name">Napolitano, Ryan</span><br> <img src="pupin301_files/rn2473.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">E18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D1</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D2</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D3</span><br> ckc2143<br> <span class="name">Chen, Caitlyn</span><br> <img src="pupin301_files/ckc2143.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D5</span><br> jsf2168<br> <span class="name">Fuller, Joshua</span><br> <img src="pupin301_files/jsf2168.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D7</span><br> zae2001<br> <span class="name">Elison, Zoe</span><br> <img src="pupin301_files/zae2001.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D9</span><br> mk4319<br> <span class="name">Kestenbaum, Michael</span><br> <img src="pupin301_files/mk4319.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D11</span><br> dxh2002<br> <span class="name">Huang, Diane</span><br> <img src="pupin301_files/dxh2002.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D13</span><br> cc4057<br> <span class="name">Chen, Christopher</span><br> <img src="pupin301_files/cc4057.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D14</span><br> mrp2199<br> <span class="name">Pladevall, Montserrat</span><br> <img src="pupin301_files/mrp2199.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D15</span><br> cc4351<br> <span class="name">Chen, Chen</span><br> <img src="pupin301_files/cc4351.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D17</span><br> ic2502<br> <span class="name">Cao, Ivy</span><br> <img src="pupin301_files/ic2502.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">D18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C2</span><br> ksc2145<br> <span class="name">Christopher, Kyle</span><br> <img src="pupin301_files/ksc2145.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C3</span><br> msb2225<br> <span class="name">Boose, Monica</span><br> <img src="pupin301_files/msb2225.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C5</span><br> ak4483<br> <span class="name">Krivonos, Anthony</span><br> <img src="pupin301_files/ak4483.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C6</span><br> sj2802<br> <span class="name">Jin, Shannon</span><br> <img src="pupin301_files/sj2802.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C7</span><br> sk4711<br> <span class="name">Kim, Jessica</span><br> <img src="pupin301_files/sk4711.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C9</span><br> phm2122<br> <span class="name">Mansour, Peter</span><br> <img src="pupin301_files/phm2122.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C10</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C11</span><br> ccm2179<br> <span class="name">McNish, Catherine</span><br> <img src="pupin301_files/ccm2179.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C12</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C13</span><br> ea2905<br> <span class="name">Ansari, Etesam</span><br> <img src="pupin301_files/ea2905.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C14</span><br> sp3816<br> <span class="name">Prakash, Shvetank</span><br> <img src="pupin301_files/sp3816.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C15</span><br> jyh2131<br> <span class="name">Huang, Jeffrey</span><br> <img src="pupin301_files/jyh2131.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C17</span><br> rta2114<br> <span class="name">Alshafie, Rania</span><br> <img src="pupin301_files/rta2114.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">C18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B4</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B5</span><br> ah3516<br> <span class="name">Huang, Amy</span><br> <img src="pupin301_files/ah3516.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B6</span><br> eag2210<br> <span class="name">Goetschel, Eric</span><br> <img src="pupin301_files/eag2210.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B7</span><br> dc3347<br> <span class="name">Cai, Danielle</span><br> <img src="pupin301_files/dc3347.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B8</span><br> ayh2120<br> <span class="name">Haddad, Andre</span><br> <img src="pupin301_files/ayh2120.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B9</span><br> ri2242<br> <span class="name">Iyer, Ryan</span><br> <img src="pupin301_files/ri2242.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B10</span><br> mm5589<br> <span class="name">Maturana, Mateo</span><br> <img src="pupin301_files/mm5589.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B11</span><br> kak2240<br> <span class="name">Kalucha, Kanav</span><br> <img src="pupin301_files/kak2240.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B12</span><br> db3250<br> <span class="name">Beverly, Delilah</span><br> <img src="pupin301_files/db3250.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B13</span><br> enm2142<br> <span class="name">Molin, Erik</span><br> <img src="pupin301_files/enm2142.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B14</span><br> dh2964<br> <span class="name">Hanoch, Daniel</span><br> <img src="pupin301_files/dh2964.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B15</span><br> jc5113<br> <span class="name">Chen, Jade</span><br> <img src="pupin301_files/jc5113.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B17</span><br> ttj2108<br> <span class="name">Joshi, Tom</span><br> <img src="pupin301_files/ttj2108.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">B18</span></td>
+</tr>
+
+<tr><td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A5</span><br> mjg2276<br> <span class="name">Gutierrez, Michael</span><br> <img src="pupin301_files/mjg2276.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A6</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A7</span><br> zd2216<br> <span class="name">Dong, Zhengyuan</span><br> <img src="pupin301_files/zd2216.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A8</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A9</span><br> enb2132<br> <span class="name">Bailey, Elizabeth</span><br> <img src="pupin301_files/enb2132.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A10</span><br> xl2948<br> <span class="name">Liu, Steven</span><br> <img src="pupin301_files/xl2948.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A11</span><br> al3853<br> <span class="name">Liebeskind, Alexander</span><br> <img src="pupin301_files/al3853.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A12</span><br> cmm2360<br> <span class="name">Morrin, Cody</span><br> <img src="pupin301_files/cmm2360.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A13</span><br> ol2217<br> <span class="name">Lee, One Jae</span><br> <img src="pupin301_files/ol2217.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A14</span><br> mk4069<br> <span class="name">Khmaladze, Mariam</span><br> <img src="pupin301_files/mk4069.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat"></span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A15</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A16</span></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A17</span><br> eyl2130<br> <span class="name">Luo, Elisa</span><br> <img src="pupin301_files/eyl2130.jpg"></td>
+<td class='unselected' onclick='selectStudent(this)' >
+<span class="seat">A18</span></td>
+</tr>
+
+</table></body>
