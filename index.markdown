@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hans's homepage"
-date:   2023-01-09
+date:   2023-01-10
 ---
 
 Hey there!
@@ -20,8 +20,9 @@ Teaching
 --------
 
 ### Associate in Computer Science @ Columbia University
-In Spring 2023, I'll be teaching [cs4118 Operating Systems I]() alongside Prof.
-Jae Woo Lee.
+In Spring 2023, I'll be teaching
+[cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/)
+alongside Prof. Jae Woo Lee.
 
 ### Teaching Assistant @ Columbia University
 While I was an undergrad and master's student at Columbia, I TA'd four classes:
