@@ -1,16 +1,20 @@
 ---
 layout: post
-title:  "Hey there!"
-date:   2023-01-07
+title:  "Hans's homepage"
+date:   2023-01-09
 ---
 
-My name is Hans and I am a software engineer based out of NYC. I currently work on Google's distributed filesystem.
+Hey there!
+==========
+
+My name is Hans and I am a software engineer based out of NYC. I currently work
+on Google's distributed filesystem.
 
 I previously attended Columbia University where I completed my bachelor's in
 2021 and my master's in 2022, both in computer science on the software systems
 track.
 
-You can reach via email at [hjm2133@columbia.edu](mailto:hjm2133@columbia.edu).
+You can reach via email at [hans@cs.columbia.edu](mailto:hans@cs.columbia.edu).
 
 Teaching
 --------
@@ -39,19 +43,14 @@ cs4995.
 
 Industry
 --------
-I joined Google as a software engineer in June 2022. My team is part of Google's distributed
-filesystem and our objective is enable low-latency and reliable file reads and
-writes.
+I joined Google as a software engineer in June 2022. My team is part of Google's
+distributed filesystem and our objective is to enable low-latency and reliable
+file reads and writes.
 
 Before graduating, I completed three internships:
 * Google: optimized eBPF programs on the linux kernel networking team. Summer
   2021.
-* Google: contributed to XLS, an open-source Rust-like language that targets Verilog for FPGA programmers. Summer 2020.
+* Google: contributed to [`XLS`](https://github.com/google/xls), an open-source
+  Rust-like language that targets Verilog for FPGA programmers. Summer 2020.
 * Bloomberg L.P.: implemented reporting capabilities for a chaos engineering
   framework. Summer 2019.
-
-Personal
---------
-I'm trying my best to have a life outside of coding xD... My interests include
-cooking, dancing, bouldering, and gaming (barely maintaining a positive K/D
-ratio in CoD).
