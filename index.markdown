@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hans's homepage"
-date:   2023-01-10
+date:   2023-05-21
 ---
 
 Hey there!
@@ -19,10 +19,10 @@ You can reach via email at [hans@cs.columbia.edu](mailto:hans@cs.columbia.edu).
 Teaching
 --------
 
-### Associate in Computer Science @ Columbia University
-In Spring 2023, I'll be teaching
-[cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/)
-alongside Prof. Jae Woo Lee.
+### Adjunct Instructor @ Columbia University
+
+Spring 2023: [cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/) (co-taught with Prof. Jae Woo Lee)
+* [course and teaching staff evaluations](assets/evals/4118-eval-final-2023-1.pdf)
 
 ### Teaching Assistant @ Columbia University
 While I was an undergrad and master's student at Columbia, I TA'd four classes:
@@ -39,8 +39,8 @@ While I was an undergrad and master's student at Columbia, I TA'd four classes:
 * [cs4995 C++ for C Programmers](https://www.cs.columbia.edu/~jae/4995-LAST/)
 
 I also worked on [`pygrader`](https://github.com/hmontero1205/pygrader), a
-framework for grading coding assignments. This framework is used in cs4118 and
-cs4995.
+framework for grading coding assignments. This framework is used in cs3157,
+cs4118 and cs4995.
 
 Industry
 --------
