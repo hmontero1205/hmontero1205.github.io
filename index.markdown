@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hans's homepage"
-date:   2023-05-21
+date:   2024-01-17
 ---
 
 Hey there!
@@ -14,22 +14,35 @@ I previously attended Columbia University where I completed my bachelor's in
 2021 and my master's in 2022, both in computer science on the software systems
 track.
 
-You can reach via email at [hans@cs.columbia.edu](mailto:hans@cs.columbia.edu).
+You can reach me via email at [hans@cs.columbia.edu](mailto:hans@cs.columbia.edu).
 
 Teaching
 --------
 
 ### Adjunct Instructor @ Columbia University
 
-Spring 2023: [cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/) (co-taught with Prof. Jae Woo Lee)
-* [course and teaching staff evaluations](assets/evals/4118-eval-final-2023-1.pdf)
+Spring 2024: [cs4995-008 Advanced Systems Programming](https://cs4157.github.io/www/2024-1/)
+* Co-designed and successfully proposed new course offering
+* See summary and FAQ [here]({% link asp-overview.md %})
+
+Spring 2023: [cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/)
+* Course and teaching staff [evaluations](assets/evals/4118-eval-final-2023-1.pdf)
+
+### Google CSFirst @ Harmony School, Saltillo, MX
+[CSFirst](https://csfirst.withgoogle.com/s/en/home) is a free, online curriculum
+that teaches introductory CS in Scratch to elementary/middle schoolers. The
+curriculum is available in several languages, not just English.
+
+In September 2023, I had the opportunity to help remotely teach two cohorts of
+middle schoolers at the Harmony School in Saltillo, Mexico. I guided the cohorts
+through introductory game design, completely in Spanish.
 
 ### Teaching Assistant @ Columbia University
 While I was an undergrad and master's student at Columbia, I TA'd four classes:
 
 * [cs3157 Advanced Programming](https://www.cs.columbia.edu/~jae/3157-LAST/):
   a.k.a. Columbia's systems programming course with a narrative. TA'd 8x over
-  2017-2022.
+  2018-2022.
 * [cs4118 Operating Systems I](https://www.cs.columbia.edu/~jae/4118-LAST/): OS
   theory reinforced by Linux kernel hacking.  TA'd 4x over 2020-2022.
 * [cs4115 Programming Languages and
@@ -41,6 +54,15 @@ While I was an undergrad and master's student at Columbia, I TA'd four classes:
 I also worked on [`pygrader`](https://github.com/hmontero1205/pygrader), a
 framework for grading coding assignments. This framework is used in cs3157,
 cs4118 and cs4995.
+
+### Advisor @ Codecademy
+From May 2018 to December 2018, I was an online advisor for Codecademy's Pro
+Intensive courses.
+
+My main role was to give 1:1 live support to students working through
+introductory courses in Java, Python, JavaScript, and HTML/CSS. I also reviewed
+project submissions and mentored students participating in months-long courses
+about intermediate Java/Python programming, data science, and web development.
 
 Industry
 --------
