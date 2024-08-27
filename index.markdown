@@ -1,32 +1,49 @@
 ---
 layout: post
 title:  "Hans's homepage"
-date:   2024-01-17
+date:   2024-08-26
 ---
 
 Hey there!
 ==========
 
-My name is Hans and I am a software engineer based out of NYC. I currently work
-on Google's distributed filesystem.
+My name is Hans and I am a software engineer living in NYC. I currently work on
+Google's distributed filesystem,
+[Colossus](https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system).
 
 I previously attended Columbia University where I completed my bachelor's in
 2021 and my master's in 2022, both in computer science on the software systems
 track.
 
-You can reach me via email at [hans@cs.columbia.edu](mailto:hans@cs.columbia.edu).
+You can reach me via email at
+[hans@cs.columbia.edu](mailto:hans@cs.columbia.edu).
 
 Teaching
 --------
 
-### Adjunct Instructor @ Columbia University
+### Adjunct Professor @ Columbia University
+
+Fall 2024: [cs4995-008 Advanced Systems Programming](https://cs4157.github.io/www/2024-9/)
+* See summary and FAQ [here]({% link asp-overview.md %})
 
 Spring 2024: [cs4995-008 Advanced Systems Programming](https://cs4157.github.io/www/2024-1/)
 * Co-designed and successfully proposed new course offering
-* See summary and FAQ [here]({% link asp-overview.md %})
+* Course and teaching staff
+  [evaluations](assets/evals/4157-eval-final-2024-1.pdf)
 
 Spring 2023: [cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/)
 * Course and teaching staff [evaluations](assets/evals/4118-eval-final-2023-1.pdf)
+
+### GIR Teaching Assistant @ Cal State Fullterton
+[Google in
+Residence](https://buildyourfuture.withgoogle.com/programs/googleinresidence)
+(GIR) is a program that matches Google software engineers with Historically
+Black Colleges and Universities (HBCUs) and Hispanic Serving Institutions (HSIs)
+to teach introductory computer science.
+
+For the Fall 2024 semester, I'll be a virtual TA for CPSC 120: Introduction to
+Programming (in C++). I'll be reviewing course materials and developing grading
+infrastructure.
 
 ### Google CSFirst @ Harmony School, Saltillo, MX
 [CSFirst](https://csfirst.withgoogle.com/s/en/home) is a free, online curriculum
@@ -67,8 +84,9 @@ about intermediate Java/Python programming, data science, and web development.
 Industry
 --------
 I joined Google as a software engineer in June 2022. My team is part of Google's
-distributed filesystem and our objective is to enable low-latency and reliable
-file reads and writes.
+[Colossus](https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system)
+distributed filesystem and our objective is to enable low-latency and
+reliable file reads and writes.
 
 Before graduating, I completed three internships:
 * Google: optimized eBPF programs on the linux kernel networking team. Summer
