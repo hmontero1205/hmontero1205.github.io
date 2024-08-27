@@ -23,7 +23,7 @@ Teaching
 
 ### Adjunct Professor @ Columbia University
 
-Fall 2024: [cs4995-008 Advanced Systems Programming](https://cs4157.github.io/www/2024-9/)
+Fall 2024: [cs4995-004 Advanced Systems Programming](https://cs4157.github.io/www/2024-9/)
 * See summary and FAQ [here]({% link asp-overview.md %})
 
 Spring 2024: [cs4995-008 Advanced Systems Programming](https://cs4157.github.io/www/2024-1/)
@@ -34,7 +34,7 @@ Spring 2024: [cs4995-008 Advanced Systems Programming](https://cs4157.github.io/
 Spring 2023: [cs4118 Operating Systems I](https://cs4118.github.io/www/2023-1/)
 * Course and teaching staff [evaluations](assets/evals/4118-eval-final-2023-1.pdf)
 
-### GIR Teaching Assistant @ Cal State Fullterton
+### GIR Teaching Assistant @ Cal State Fullerton
 [Google in
 Residence](https://buildyourfuture.withgoogle.com/programs/googleinresidence)
 (GIR) is a program that matches Google software engineers with Historically
